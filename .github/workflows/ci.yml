@@ -30,4 +30,4 @@ jobs:
 
       # extraction.test.cjs loads ES modules through vm.SourceTextModule.
       - name: Run tests
-        run: node --experimental-vm-modules --test tests/
+        run: node --experimental-vm-modules --test "tests/*.test.cjs"
